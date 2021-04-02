@@ -31,7 +31,7 @@
 #else
 #define TBLSIZE 80
 #endif
-char table_outerbar[TBLSIZE+1], table_innerbar[TBLSIZE+1], print_buffer[TBLSIZE+1];
+extern char table_outerbar[TBLSIZE+1], table_innerbar[TBLSIZE+1], print_buffer[TBLSIZE+1];
 
 /* define a timeout for how long a test can run */
 #define TEST_TIMEOUT_SECS 10.0

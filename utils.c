@@ -19,6 +19,8 @@
 #include <string.h>
 #include <network_test.h>
 
+char table_outerbar[TBLSIZE+1], table_innerbar[TBLSIZE+1], print_buffer[TBLSIZE+1];
+
 void die(char* errmsg)
 {
      fprintf(stderr, "%s\n", errmsg);
